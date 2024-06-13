@@ -277,7 +277,12 @@ header .header-float-btn a:active {
     header .header-float-btn a {
         font-size: 100%;
     }
-
+    .card .card-image  {
+        flex-wrap: wrap;
+    }
+    .card .card-image .card-image-card img {
+        width: 40rem;
+    }
 }
 
 /* tablet responsive*/ 
@@ -308,6 +313,11 @@ header .header-float-btn a:active {
     /* header float btn */
     header .header-float-btn a {
         font-size: 100%;
+    }
+
+    /* card */
+    .card .card-image  {
+        flex-wrap: wrap;
     }
 }
 
