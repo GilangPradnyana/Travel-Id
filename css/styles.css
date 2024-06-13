@@ -8,6 +8,7 @@
 /* css styles */
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #ffffff;
