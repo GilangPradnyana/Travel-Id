@@ -98,7 +98,7 @@ header .header-nav-feather a {
     border-radius: .4rem;
     font-family: 'Poppins';
     font-weight: 600;
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
     background-color: var(--secondary);
     -webkit-border-radius: .4rem;
     -moz-border-radius: .4rem;
@@ -195,6 +195,7 @@ header .header-float-btn a:active {
 @media screen and (max-width:630px) {
     html {
         font-size: 65%;
+        scroll-behavior: smooth;
     }
     /* header navbar */
 
@@ -202,7 +203,10 @@ header .header-float-btn a:active {
     header .header-nav .header-nav-list {
         gap: 2rem;
     }
-
+    /* header navbar feather */
+    header .header-nav-feather a {
+        padding: .5rem 1rem;
+    }
 
     /* header navbar float */
     header .header-float {
