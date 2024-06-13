@@ -241,6 +241,50 @@ header .header-float-btn a:active {
     color: #FF8F00;
 }
 
+/* roadmap */
+section {
+    margin: 6rem 8%;
+}
+/* roadmap header */
+section .header {
+    text-align: center;
+    color: #222831;
+}
+section .header h1 {
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+section .header p {
+    font-size: 1rem;
+    font-weight: 350;
+    font-family: 'Open Sans';
+    margin-bottom: 1rem;
+}
+/* roadmap img */
+section .content {
+    display: flex;
+    border: 1px solid;
+}
+section .content img {
+    width: 50%;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+/* roadmap article */
+section .content .content-article {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+/* roadmap content */
+section .content .content-article .content-article-1 {
+    display: flex;
+}
+
 /* responsive */
 /* handphone */
 @media screen and (max-width:630px) {
