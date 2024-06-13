@@ -192,15 +192,15 @@ header .header-float-btn a:active {
 
 /* responsive */
 /* handphone */
-@media screen and (max-width:600px) {
+@media screen and (max-width:630px) {
     html {
-        font-size: 50%;
+        font-size: 65%;
     }
     /* header navbar */
 
     /* header-navbar-list */
     header .header-nav .header-nav-list {
-        gap: 3rem;
+        gap: 2rem;
     }
 
 
@@ -224,4 +224,31 @@ header .header-float-btn a:active {
         font-size: 100%;
     }
 
+}
+
+/* tablet responsive*/ 
+@media screen and (min-width:631px) {
+    html {
+        font-size: 80%;
+    }
+
+      /* header navbar float */
+      header .header-float {
+        width: 80%;
+    }
+    header .header-float .header-float-content {
+        flex: 3 2;
+
+    }
+    header .header-float .header-float-content .header-float-content-card h1{
+        font-size: 1.5rem;
+    }
+    header .header-float .header-float-content .header-float-content-card h2{
+        font-size: 1rem;   
+        font-weight: 100;
+    }
+    /* header float btn */
+    header .header-float-btn a {
+        font-size: 100%;
+    }
 }
