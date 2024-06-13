@@ -190,6 +190,56 @@ header .header-float-btn a:active {
     background-color: #7c1ebe;
 }
 
+/* card */
+.card {
+    margin: 6rem 6%;
+}
+.card .card-content {
+    color: #222831;
+    margin-left: 2rem;
+}
+.card .card-content h1 {
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.card .card-content h2 {
+    font-size: 1rem;
+    font-weight: 350;
+    font-family: 'Open Sans';
+    margin-bottom: 1rem;
+}
+
+/* card image */
+
+.card .card-image{
+   display: flex;
+   justify-content: center;
+   gap: 2.7rem;
+   align-items: center;
+}
+
+.card .card-image .card-image-card img {
+    width: 20rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.card .card-image .card-image-card h2 {
+    margin-top: .6rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    margin-bottom: .3rem;
+}
+#star {
+    color: #FF8F00;
+}
+
 /* responsive */
 /* handphone */
 @media screen and (max-width:630px) {
