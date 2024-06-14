@@ -324,7 +324,7 @@ section .content .content-article .content-article-text p {
 /* handphone */
 @media screen and (max-width:630px) {
     html {
-        font-size: 65%;
+        font-size: 55%;
         scroll-behavior: smooth;
     }
     /* header navbar */
