@@ -315,8 +315,9 @@ section .content .content-article .content-article-text p {
     font-weight: 100;
 }
 #enjoy {
-    margin-top: .6rem;
+    margin-top: .8rem;
     color: #7c1ebe;
+    font-weight: bolder;
 }
 
 /* responsive */
