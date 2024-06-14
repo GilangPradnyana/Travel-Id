@@ -91,6 +91,7 @@ header .header-nav-feather {
     margin-top: -.6rem;
     flex: 1;
     justify-content: end;
+    min-width: 10px;
 } 
 header .header-nav-feather a {
     min-width: 10px;
@@ -336,12 +337,13 @@ section .content .content-article .content-article-text p {
     }
     /* header navbar feather */
     header .header-nav-feather a {
-        padding: .5rem 1rem;
+        padding: .5rem .8rem;
+        min-width: 40px;
     }
 
     /* header navbar float */
     header .header-float {
-        width: 80%;
+        width: 85%;
     }
     /* header float content */
     header .header-float .header-float-content {
