@@ -463,10 +463,14 @@ main .content .content-article .content-article-text p {
     html {
         font-size: 80%;
     }
+    header .header-nav-list {
+        gap: 1rem;
+    }
     /* header navbar feather */
     header .header-nav .header-nav-feather a{
-        padding: .6rem 1.2rem;
-    }
+        padding: .6rem 1rem;
+        min-width: 70px;
+    }  
 
       /* header navbar float */
     header .header-float {
