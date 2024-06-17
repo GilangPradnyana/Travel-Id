@@ -621,6 +621,42 @@ footer .contact-us a:hover::after {
     main .content .content-article {
         order: 11;
     }
+
+    /* footer */
+    footer .content p {
+        min-width: 100%;
+    }
+
+    footer .link {
+        min-width: 70px;
+    }
+    footer .link a::after {
+        border-bottom: 1px solid violet;
+        
+    }
+    footer .link a:hover::after  {
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+}
+    footer .help {
+        min-width: 80px;
+    }
+    footer .contact-us {
+        min-width: 70px;
+    }
+    footer .contact-us a::after {
+        border-bottom: 1px solid violet;
+        
+    }
+    footer .contact-us a:hover::after  {
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
 }
 
 /* tablet responsive*/ 
